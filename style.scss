@@ -1,0 +1,139 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.top {
+    height: 1024px;
+    background-image: url(homework__img/site__fone1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    padding-top: 217px;
+    gap: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: Montserrat;
+
+
+
+    &__title {
+        color: #FFF;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        max-width: 788px;
+
+    }
+
+    &__text {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+        max-width: 481px;
+        font-family: Montserrat;
+    }
+
+    &__form {
+        width: 234.063px;
+        height: 48.603px;
+        display: flex;
+        border-radius: 30px;
+        background: #9C0332;
+        font-family: Montserrat;
+    }
+
+    &__form--link {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 13px 74px 13px 74px;
+        text-decoration: none;
+        font-family: Montserrat;
+    }
+
+    &__world {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        font-family: Montserrat;
+    }
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    
+    
+   &__box {
+        background-image: url(homework__img/site__fone2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 128px;
+        padding-bottom: 128px;
+    }
+
+    &__img1 {
+        background-image: url(homework__img/game__img-1.jpg);
+        width: 378px;
+        height: 300px;
+        border-radius: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    &__img2 {
+        background-image: url(homework__img/game__img-2.png);
+        background-repeat: no-repeat;
+        width: 378px;
+        height: 300px;
+        border-radius: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    &__img3 {
+        background-image: url(homework__img/game__img-3.jpg);
+        width: 378px;
+        height: 300px;
+        border-radius: 16px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    &__name {
+        padding-bottom: 32px;
+        padding-left: 32px;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+    }
+}
+
+@import 'mobile';
