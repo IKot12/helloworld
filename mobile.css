@@ -8,9 +8,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 735px;
+    min-height: 735px;
   }
-  
   .header {
     padding-top: 238px;
     gap: 32px;
@@ -36,6 +35,14 @@
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
+  }
+  .header__form-link {
+    width: 234.06px;
+    height: 48.6px;
+    left: 68.71px;
+    right: -68.71px;
+    top: 2829.61px;
+    bottom: -2829.61px;
   }
   .product {
     display: flex;
@@ -70,5 +77,91 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
+  }
+  .product1 {
+    padding-top: 51px;
+    padding-bottom: 64px;
+    align-items: center;
+  }
+  .product1__box {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+  .product1__title {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .product1__text {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .product1__game__img {
+    width: 344px;
+    height: 231px;
+  }
+  .product2 {
+    padding-top: 51px;
+    padding-bottom: 64px;
+    align-items: center;
+  }
+  .product2__box {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+  .product2__title {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .product2__text {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .product2__game__img {
+    width: 344px;
+    height: 231px;
+  }
+  .product3__title {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .product3__text {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .product3__game__img {
+    width: 344px;
+    height: 231px;
   }
 }/*# sourceMappingURL=mobile.css.map */

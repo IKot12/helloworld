@@ -11,7 +11,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 735px;
+        min-height: 735px;
     }
 
     .header {
@@ -41,12 +41,24 @@
             font-weight: 400;
             line-height: 22px;
         }
+
+        &__form-link {
+            width: 234.06px;
+            height: 48.6px;
+            left: 68.71px;
+            right: -68.71px;
+            top: 2829.61px;
+            bottom: -2829.61px;
+        }
     }
+
+
 
     .product {
         display: flex;
         flex-direction: column;
         gap: 32px;
+
 
         &__img1 {
             background-image: url(homework__img/game__img-1.jpg);
@@ -78,6 +90,111 @@
             display: flex;
             flex-wrap: wrap;
             flex-direction: column-reverse;
+        }
+    }
+
+
+    .product1 {
+
+        padding-top: 51px;
+        padding-bottom: 64px;
+        align-items: center;
+
+        &__box {
+            display: flex;
+            flex-direction: column;
+            gap: 64px;
+        }
+
+        &__title {
+            color: rgb(255, 255, 255);
+            font-family: Montserrat;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+
+        &__text {
+            color: rgb(255, 255, 255);
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+
+        &__game__img {
+            width: 344px;
+            height: 231px;
+        }
+
+    }
+
+    .product2 {
+        padding-top: 51px;
+        padding-bottom: 64px;
+        align-items: center;
+
+        &__box {
+            display: flex;
+            flex-direction: column;
+            gap: 64px;
+        }
+
+        &__title {
+            color: rgb(255, 255, 255);
+            font-family: Montserrat;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+
+        &__text {
+            color: rgb(255, 255, 255);
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+
+        &__game__img {
+            width: 344px;
+            height: 231px;
+        }
+    }
+
+    .product3 {
+
+        &__title {
+            color: rgb(255, 255, 255);
+            font-family: Montserrat;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+
+        &__text {
+            color: rgb(255, 255, 255);
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+
+        &__game__img {
+            width: 344px;
+            height: 231px;
         }
     }
 }

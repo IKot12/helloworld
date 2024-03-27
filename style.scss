@@ -1,9 +1,8 @@
-
-
 * {
     margin: 0;
     padding: 0;
 }
+
 
 .center {
     padding-left: calc(50% - 600px);
@@ -81,9 +80,9 @@
 .product {
     display: grid;
     grid-template-columns: repeat(3, 4fr);
-    
-    
-   &__box {
+
+
+    &__box {
         background-image: url(homework__img/site__fone2.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -136,4 +135,147 @@
     }
 }
 
-@import 'mobile';
+.product1 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-bottom: 233px;
+    padding-top: 233px;
+
+    &__box {
+        background-image: url(homework__img/site__fone3.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        gap: 157px;
+    }
+
+    &__title {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    &__text {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+        font-family: Montserrat;
+    }
+
+}
+
+.product2 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 282px;
+    padding-bottom: 282px;
+
+    &__box {
+        background-image: url(homework__img/site__fone4.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        gap: 157px;
+        flex-direction: row-reverse;
+    }
+
+    &__title {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    &__text {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+        font-family: Montserrat;
+    }
+
+}
+
+
+.product3 {
+    padding-top: 276px;
+    padding-bottom: 276px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+    &__box {
+        background-image: url(homework__img/site__fone5.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    &__title {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    &__text {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+        font-family: Montserrat;
+        text-align: center;
+
+    }
+
+}
+
+.product4 {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    &__box {
+        background-image: url(homework__img/site__fone6.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__text {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        font-family: Montserrat;
+    }
+}
+
+@import 'tablet';
+@import 'mobile'

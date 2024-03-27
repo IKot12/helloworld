@@ -120,6 +120,191 @@
   line-height: 32px;
 }
 
+.product1 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-bottom: 233px;
+  padding-top: 233px;
+}
+.product1__box {
+  background-image: url(homework__img/site__fone3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  gap: 157px;
+}
+.product1__title {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.product1__text {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  font-family: Montserrat;
+}
+
+.product2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 282px;
+  padding-bottom: 282px;
+}
+.product2__box {
+  background-image: url(homework__img/site__fone4.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  gap: 157px;
+  flex-direction: row-reverse;
+}
+.product2__title {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.product2__text {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  font-family: Montserrat;
+}
+
+.product3 {
+  padding-top: 276px;
+  padding-bottom: 276px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.product3__box {
+  background-image: url(homework__img/site__fone5.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product3__title {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.product3__text {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+.product4 {
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.product4__box {
+  background-image: url(homework__img/site__fone6.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product4__text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  font-family: Montserrat;
+}
+
+@media (min-width: 767px) and (max-width: 833px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .product {
+    display: flex;
+    gap: 39px 29px;
+    padding-bottom: 53px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .product__img1 {
+    width: 343px;
+    height: 300px;
+  }
+  .product__img2 {
+    width: 343px;
+    height: 300px;
+  }
+  .product__img3 {
+    width: 343px;
+    height: 300px;
+  }
+  .product1__box {
+    gap: 25px;
+  }
+  .product2__box {
+    gap: 25px;
+  }
+}
+@media (min-width: 833px) and (max-width: 1150px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+  .product {
+    display: flex;
+    gap: 39px 29px;
+    padding-bottom: 53px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .product__img1 {
+    width: 343px;
+    height: 300px;
+  }
+  .product__img2 {
+    width: 343px;
+    height: 300px;
+  }
+  .product__img3 {
+    width: 343px;
+    height: 300px;
+  }
+  .product1__box {
+    gap: 25px;
+  }
+  .product2__box {
+    gap: 25px;
+  }
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -130,7 +315,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 735px;
+    min-height: 735px;
   }
   .header {
     padding-top: 238px;
@@ -157,6 +342,14 @@
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
+  }
+  .header__form-link {
+    width: 234.06px;
+    height: 48.6px;
+    left: 68.71px;
+    right: -68.71px;
+    top: 2829.61px;
+    bottom: -2829.61px;
   }
   .product {
     display: flex;
@@ -191,5 +384,91 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
+  }
+  .product1 {
+    padding-top: 51px;
+    padding-bottom: 64px;
+    align-items: center;
+  }
+  .product1__box {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+  .product1__title {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .product1__text {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .product1__game__img {
+    width: 344px;
+    height: 231px;
+  }
+  .product2 {
+    padding-top: 51px;
+    padding-bottom: 64px;
+    align-items: center;
+  }
+  .product2__box {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+  .product2__title {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .product2__text {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .product2__game__img {
+    width: 344px;
+    height: 231px;
+  }
+  .product3__title {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .product3__text {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .product3__game__img {
+    width: 344px;
+    height: 231px;
   }
 }/*# sourceMappingURL=style.css.map */
